@@ -1,0 +1,43 @@
+# ─── API keys and secrets ────────────────────────────────────────────────────
+*.env
+.env*
+config.yaml          # LiteLLM actual config (use config.yaml.example)
+secrets/
+credentials/
+
+# ─── Model files (too large for git) ─────────────────────────────────────────
+*.gguf
+*.onnx
+*.bin                # QNN model binaries
+*.safetensors
+models/
+*.zip                # Downloaded model archives
+
+# ─── Vector store data ───────────────────────────────────────────────────────
+chroma.sqlite3
+chromadb/
+*.db
+webui.db
+
+# ─── Runtime data ─────────────────────────────────────────────────────────────
+logs/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+venv/
+.venv/
+env/
+
+# ─── OS artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# ─── Editor artifacts ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
