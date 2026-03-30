@@ -1,4 +1,4 @@
-# Troubleshooting Guide
+﻿# Troubleshooting Guide
 
 ---
 
@@ -255,7 +255,7 @@ cd C:\AI\GenieAPIService_cpp
 ```
 
 The autostart script handles this automatically if configured. See
-[windows-ai-autostart](https://github.com/your-username/windows-ai-autostart).
+[windows-ai-autostart](https://github.com/gaiagent0/windows-ai-autostart).
 
 ### Ollama high memory after multiple queries
 

@@ -1,4 +1,4 @@
-# snapdragon-ai-stack
+﻿# snapdragon-ai-stack
 
 > **Complete local AI stack for Snapdragon X Elite (ARM64 Windows)**  
 > Production-ready · Privacy-first · NPU-accelerated
@@ -199,7 +199,7 @@ netstat -an | findstr "LISTENING" | findstr -v "127.0.0.1"
 # Should return empty for AI ports (8912, 11434, 8080, 4000)
 ```
 
-Firewall rules are enforced via the autostart script. See [windows-ai-autostart](https://github.com/your-username/windows-ai-autostart).
+Firewall rules are enforced via the autostart script. See [windows-ai-autostart](https://github.com/gaiagent0/windows-ai-autostart).
 
 ---
 
@@ -207,8 +207,8 @@ Firewall rules are enforced via the autostart script. See [windows-ai-autostart]
 
 | Repo | Description |
 |------|-------------|
-| [litellm-local-config](https://github.com/your-username/litellm-local-config) | LiteLLM multi-provider proxy templates |
-| [windows-ai-autostart](https://github.com/your-username/windows-ai-autostart) | Task Scheduler autostart automation |
+| [litellm-local-config](https://github.com/gaiagent0/litellm-local-config) | LiteLLM multi-provider proxy templates |
+| [windows-ai-autostart](https://github.com/gaiagent0/windows-ai-autostart) | Task Scheduler autostart automation |
 
 ---
 

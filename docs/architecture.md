@@ -1,4 +1,4 @@
-# Architecture — Design Decisions & Rationale
+﻿# Architecture — Design Decisions & Rationale
 
 > This document explains *why* each component was chosen, not just *what* it is.
 
@@ -148,7 +148,7 @@ Secret management:
 
 ## Autostart Sequence
 
-See [windows-ai-autostart](https://github.com/your-username/windows-ai-autostart) repo.
+See [windows-ai-autostart](https://github.com/gaiagent0/windows-ai-autostart) repo.
 
 Critical ordering constraint:
 ```
